@@ -1,3 +1,4 @@
+async function init(){
 const drop = async (e) => {
   const { x, y, target } = e;
 
@@ -8,3 +9,4 @@ const drop = async (e) => {
 };
 
 miro.board.ui.on("drop", drop);
+}
